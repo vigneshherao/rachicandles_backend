@@ -1,0 +1,15 @@
+{
+  "name": "rachicanldes",
+  "version": "1.0.0",
+  "description": "This is the backend codebase for rachicanles",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Vignesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
