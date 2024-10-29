@@ -44,4 +44,16 @@ const productValidate = (req) => {
   }
 };
 
-module.exports = productValidate;
+const validateEdit = (req) => {
+  const allowedFields = ["title", "subtitle", "price", "image", "description"];
+
+  const isAllowed = Object.keys(req.body).every((key) =>
+    allowedFields.includes(key)
+  );
+
+  if (!isAllowed) {
+    throw new Error("Only allowed field are allowed to edit");
+  }
+};
+
+module.exports = { productValidate, validateEdit };

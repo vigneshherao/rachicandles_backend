@@ -24,9 +24,8 @@ const adminSchema = new mongoose.Schema({
 
 adminSchema.methods.getJwt = async function () {
   const user = this;
-
   const token = await jwt.sign({ _id: user._id }, "RachiCandles@2024", {
-    expiresIn: "7d",
+    expiresIn: "2d",
   });
 
   return token;
