@@ -4,6 +4,7 @@ const port = 5000;
 const connectDb = require("./config/database");
 const cookieParser = require("cookie-parser");
 const admin = require("./routes/auth");
+const product = require("./routes/product");
 
 //middleware
 app.use(express.json());
@@ -11,6 +12,7 @@ app.use(cookieParser());
 
 //routes
 app.use("/admin", admin);
+app.use("/", product);
 
 //Database connection
 connectDb()
