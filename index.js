@@ -3,9 +3,12 @@ const app = express();
 const port = 5000;
 const connectDb = require("./config/database");
 const adminModel = require("./models/admin");
+const adminAuth = require("./middleware/adminAuth");
+const cookieParser = require("cookie-parser");
 
 //middleware
 app.use(express.json());
+app.use(cookieParser());
 
 app.post("/login", async (req, res) => {
   try {
