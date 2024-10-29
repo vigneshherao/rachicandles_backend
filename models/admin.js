@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 const { type } = require("os");
 const validator = require("validator");
 const { default: isEmail } = require("validator/lib/isEmail");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
 
 const adminSchema = new mongoose.Schema({
   email: {
@@ -19,6 +21,26 @@ const adminSchema = new mongoose.Schema({
     required: true,
   },
 });
+
+adminSchema.methods.getJwt = async function () {
+  const user = this;
+
+  const token = await jwt.sign({ _id: user._id }, "RachiCandles@2024", {
+    expiresIn: "7d",
+  });
+
+  return token;
+};
+
+adminSchema.methods.comparePassword = async function (password) {
+  try {
+    const user = this;
+    const isValid = await bcrypt.compare(password, user.password);
+    return isValid;
+  } catch (error) {
+    console.log(error);
+  }
+};
 
 const Admin = mongoose.model("Admin", adminSchema);
 

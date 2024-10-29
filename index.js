@@ -13,17 +13,25 @@ app.post("/login", async (req, res) => {
 
     const isValidAdmin = await adminModel.findOne({ email });
 
-    console.log(isValidAdmin);
-
     if (!isValidAdmin) {
       throw new Error("admin is not valid");
     }
 
-    if (isValidAdmin.password != password) {
+    const isValidPassword = await isValidAdmin.comparePassword(password);
+
+    if (!isValidPassword) {
       throw new Error("password is not valid");
     }
+
+    const token = await isValidAdmin.getJwt();
+
+    res.cookie("token", token, {
+      expires: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000),
+    });
+
+    res.status(200).json({ message: "Admin logged in successfully" });
   } catch (error) {
-    res.status(404).send("Error occured " + error.message);
+    res.status(500).json({ error: "Error occurred: " + error.message });
   }
 });
 
