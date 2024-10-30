@@ -2,7 +2,8 @@ const dummyProducts = [
   {
     title: "Vintage Glass Vase",
     subtitle: "Elegant vase for timeless decor",
-    image: "https://example.com/vintage-vase.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
     description:
       "A beautifully crafted vintage glass vase, perfect for displaying fresh flowers and adding a touch of elegance to any space.",
@@ -10,7 +11,8 @@ const dummyProducts = [
   {
     title: "Handmade Wooden Coasters",
     subtitle: "Eco-friendly coasters for your home",
-    image: "https://example.com/wooden-coasters.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 150,
     description:
       "Set of four handmade wooden coasters that protect your surfaces while adding a rustic charm to your decor.",
@@ -18,7 +20,8 @@ const dummyProducts = [
   {
     title: "Decorative Throw Blanket",
     subtitle: "Cozy and stylish for any room",
-    image: "https://example.com/throw-blanket.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 600,
     description:
       "Soft and warm decorative throw blanket that enhances your living space with comfort and style.",
@@ -26,7 +29,8 @@ const dummyProducts = [
   {
     title: "Ceramic Coffee Mug",
     subtitle: "Artisan mug for your morning brew",
-    image: "https://example.com/ceramic-mug.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 200,
     description:
       "A beautifully designed ceramic coffee mug that brings a unique touch to your daily coffee routine.",
@@ -34,7 +38,8 @@ const dummyProducts = [
   {
     title: "Scented Soy Candles",
     subtitle: "Eco-friendly and aromatic",
-    image: "https://example.com/soy-candles.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 350,
     description:
       "Hand-poured scented soy candles that fill your home with delightful fragrances while being environmentally friendly.",
@@ -42,7 +47,8 @@ const dummyProducts = [
   {
     title: "Rustic Wall Clock",
     subtitle: "Timeless design for any room",
-    image: "https://example.com/wall-clock.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 450,
     description:
       "A rustic wall clock that combines functionality with vintage charm, perfect for any living space.",
@@ -50,7 +56,8 @@ const dummyProducts = [
   {
     title: "Stylish Desk Organizer",
     subtitle: "Keep your workspace tidy",
-    image: "https://example.com/desk-organizer.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 300,
     description:
       "A sleek desk organizer that helps keep your workspace organized and stylish.",
@@ -58,7 +65,8 @@ const dummyProducts = [
   {
     title: "Handcrafted Wooden Frame",
     subtitle: "Showcase your memories",
-    image: "https://example.com/wooden-frame.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 400,
     description:
       "A handcrafted wooden photo frame that adds a personal touch to your cherished memories.",
@@ -66,7 +74,8 @@ const dummyProducts = [
   {
     title: "Artisan Soap Set",
     subtitle: "Luxurious and natural",
-    image: "https://example.com/artisan-soap.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
     description:
       "A set of artisan soaps made from natural ingredients, perfect for pampering your skin.",
@@ -74,7 +83,8 @@ const dummyProducts = [
   {
     title: "Charming Table Lamp",
     subtitle: "Illuminate your space with style",
-    image: "https://example.com/table-lamp.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 500,
     description:
       "A charming table lamp that adds warmth and character to your living space.",
@@ -82,7 +92,8 @@ const dummyProducts = [
   {
     title: "Soft Cotton Pillow",
     subtitle: "Comfort for a restful sleep",
-    image: "https://example.com/cotton-pillow.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 300,
     description:
       "A plush cotton pillow designed for ultimate comfort and support during sleep.",
@@ -90,7 +101,8 @@ const dummyProducts = [
   {
     title: "Vintage Record Player",
     subtitle: "Bring back the classics",
-    image: "https://example.com/record-player.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 1200,
     description:
       "A vintage-style record player that lets you enjoy your favorite vinyl records in style.",
@@ -98,7 +110,8 @@ const dummyProducts = [
   {
     title: "Decorative Wall Art",
     subtitle: "Add character to your walls",
-    image: "https://example.com/wall-art.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 700,
     description:
       "A stunning piece of wall art that transforms your space and reflects your personality.",
@@ -106,7 +119,8 @@ const dummyProducts = [
   {
     title: "Elegant Glass Pitcher",
     subtitle: "Serve in style",
-    image: "https://example.com/glass-pitcher.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 400,
     description:
       "An elegant glass pitcher perfect for serving drinks at any gathering.",
@@ -114,7 +128,8 @@ const dummyProducts = [
   {
     title: "Rustic Candle Holder",
     subtitle: "Create a warm ambiance",
-    image: "https://example.com/candle-holder.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 350,
     description:
       "A rustic candle holder that enhances your decor and creates a cozy atmosphere.",
@@ -122,7 +137,8 @@ const dummyProducts = [
   {
     title: "Modern Planter",
     subtitle: "Showcase your plants beautifully",
-    image: "https://example.com/modern-planter.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 450,
     description:
       "A sleek modern planter that showcases your favorite plants while adding a contemporary touch.",
@@ -130,7 +146,8 @@ const dummyProducts = [
   {
     title: "Handwoven Basket",
     subtitle: "Versatile storage solution",
-    image: "https://example.com/handwoven-basket.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
     description:
       "A beautiful handwoven basket that provides a stylish storage solution for any room.",
@@ -138,7 +155,8 @@ const dummyProducts = [
   {
     title: "Soft Area Rug",
     subtitle: "Add comfort underfoot",
-    image: "https://example.com/area-rug.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 800,
     description:
       "A plush area rug that brings warmth and style to your living space.",
@@ -146,7 +164,8 @@ const dummyProducts = [
   {
     title: "Leather Journal",
     subtitle: "Capture your thoughts in style",
-    image: "https://example.com/leather-journal.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 350,
     description:
       "A handcrafted leather journal perfect for jotting down your thoughts and ideas.",
@@ -154,7 +173,8 @@ const dummyProducts = [
   {
     title: "Decorative Throw Pillows",
     subtitle: "Add a pop of color",
-    image: "https://example.com/throw-pillows.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 200,
     description:
       "A set of colorful throw pillows that enhance the comfort and style of your seating area.",
@@ -162,7 +182,8 @@ const dummyProducts = [
   {
     title: "Handcrafted Cutting Board",
     subtitle: "Perfect for your kitchen",
-    image: "https://example.com/cutting-board.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 400,
     description:
       "A durable handcrafted cutting board that makes meal prep a breeze.",
@@ -170,7 +191,8 @@ const dummyProducts = [
   {
     title: "Elegant Wine Glasses",
     subtitle: "Raise a toast in style",
-    image: "https://example.com/wine-glasses.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 600,
     description:
       "A set of elegant wine glasses perfect for special occasions and everyday use.",
@@ -178,7 +200,8 @@ const dummyProducts = [
   {
     title: "Cozy Slippers",
     subtitle: "Comfort for your feet",
-    image: "https://example.com/cozy-slippers.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
     description:
       "Soft and warm slippers that keep your feet cozy during chilly evenings.",
@@ -186,7 +209,8 @@ const dummyProducts = [
   {
     title: "Handmade Jewelry Box",
     subtitle: "Store your treasures beautifully",
-    image: "https://example.com/jewelry-box.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 500,
     description:
       "A beautifully crafted jewelry box that keeps your precious items organized and safe.",
@@ -194,7 +218,8 @@ const dummyProducts = [
   {
     title: "Artisan Tea Set",
     subtitle: "Brew and serve with elegance",
-    image: "https://example.com/tea-set.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 700,
     description:
       "An artisan tea set that makes brewing and serving tea a delightful experience.",
@@ -202,7 +227,8 @@ const dummyProducts = [
   {
     title: "Stylish Sunglasses",
     subtitle: "Protect your eyes with flair",
-    image: "https://example.com/sunglasses.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 300,
     description:
       "Fashionable sunglasses that offer UV protection while enhancing your style.",
@@ -210,7 +236,8 @@ const dummyProducts = [
   {
     title: "Unique Wall Hooks",
     subtitle: "Functional art for your home",
-    image: "https://example.com/wall-hooks.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 200,
     description:
       "A set of unique wall hooks that combine functionality with artistic flair.",
@@ -218,7 +245,8 @@ const dummyProducts = [
   {
     title: "Handcrafted Pottery",
     subtitle: "Add a touch of craftsmanship",
-    image: "https://example.com/pottery.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 450,
     description:
       "Beautifully handcrafted pottery pieces that add character to your decor.",
@@ -226,7 +254,8 @@ const dummyProducts = [
   {
     title: "Decorative Wall Mirror",
     subtitle: "Reflect your style",
-    image: "https://example.com/wall-mirror.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 800,
     description:
       "A decorative wall mirror that not only serves a purpose but also enhances your space.",
@@ -234,7 +263,8 @@ const dummyProducts = [
   {
     title: "Stylish Backpack",
     subtitle: "Perfect for everyday adventures",
-    image: "https://example.com/backpack.jpg",
+    image:
+      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 600,
     description:
       "A stylish and functional backpack designed for comfort and convenience.",

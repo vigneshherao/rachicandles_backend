@@ -5,8 +5,10 @@ const connectDb = require("./config/database");
 const cookieParser = require("cookie-parser");
 const admin = require("./routes/auth");
 const product = require("./routes/product");
+const cors = require("cors");
 
 //middleware
+app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
 
