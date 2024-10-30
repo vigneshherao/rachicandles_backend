@@ -33,7 +33,14 @@ const productValidate = (req) => {
     throw new Error("Price should be a valid positive number.");
   }
 
-  const allowedFields = ["title", "subtitle", "price", "image", "description"];
+  const allowedFields = [
+    "title",
+    "subtitle",
+    "price",
+    "image",
+    "description",
+    "category",
+  ];
 
   const isAllowed = Object.keys(req.body).every((key) =>
     allowedFields.includes(key)

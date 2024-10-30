@@ -58,7 +58,7 @@ router.get("/product/:productId", async (req, res) => {
 
 router.post("/add/product", adminAuth, async (req, res) => {
   try {
-    const { title, subtitle, price, image, description } = req.body;
+    const { title, subtitle, price, image, description, category } = req.body;
 
     productValidate(req);
 
@@ -68,6 +68,7 @@ router.post("/add/product", adminAuth, async (req, res) => {
       price,
       image,
       description,
+      category,
     };
 
     const data = await Product(product).save();
