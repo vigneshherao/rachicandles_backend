@@ -24,6 +24,14 @@ const productSchema = new mongoose.Schema(
     description: {
       type: String,
     },
+    category: {
+      type: String,
+      enum: {
+        values: ["sweets", "candles"],
+        message: "Category `{VALUE}` is not supported.",
+      },
+      required: true,
+    },
   },
   {
     timestamps: true,

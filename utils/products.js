@@ -5,6 +5,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
+    category: "candles",
     description:
       "A beautifully crafted vintage glass vase, perfect for displaying fresh flowers and adding a touch of elegance to any space.",
   },
@@ -14,6 +15,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 150,
+    category: "sweets",
     description:
       "Set of four handmade wooden coasters that protect your surfaces while adding a rustic charm to your decor.",
   },
@@ -23,6 +25,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 600,
+    category: "candles",
     description:
       "Soft and warm decorative throw blanket that enhances your living space with comfort and style.",
   },
@@ -32,6 +35,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 200,
+    category: "candles",
     description:
       "A beautifully designed ceramic coffee mug that brings a unique touch to your daily coffee routine.",
   },
@@ -41,6 +45,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 350,
+    category: "candles",
     description:
       "Hand-poured scented soy candles that fill your home with delightful fragrances while being environmentally friendly.",
   },
@@ -50,6 +55,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 450,
+    category: "candles",
     description:
       "A rustic wall clock that combines functionality with vintage charm, perfect for any living space.",
   },
@@ -59,6 +65,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 300,
+    category: "candles",
     description:
       "A sleek desk organizer that helps keep your workspace organized and stylish.",
   },
@@ -68,6 +75,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 400,
+    category: "candles",
     description:
       "A handcrafted wooden photo frame that adds a personal touch to your cherished memories.",
   },
@@ -77,6 +85,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
+    category: "candles",
     description:
       "A set of artisan soaps made from natural ingredients, perfect for pampering your skin.",
   },
@@ -86,6 +95,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 500,
+    category: "candles",
     description:
       "A charming table lamp that adds warmth and character to your living space.",
   },
@@ -95,6 +105,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 300,
+    category: "candles",
     description:
       "A plush cotton pillow designed for ultimate comfort and support during sleep.",
   },
@@ -104,6 +115,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 1200,
+    category: "candles",
     description:
       "A vintage-style record player that lets you enjoy your favorite vinyl records in style.",
   },
@@ -113,6 +125,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 700,
+    category: "candles",
     description:
       "A stunning piece of wall art that transforms your space and reflects your personality.",
   },
@@ -122,6 +135,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 400,
+    category: "candles",
     description:
       "An elegant glass pitcher perfect for serving drinks at any gathering.",
   },
@@ -131,6 +145,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 350,
+    category: "sweets",
     description:
       "A rustic candle holder that enhances your decor and creates a cozy atmosphere.",
   },
@@ -140,6 +155,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 450,
+    category: "sweets",
     description:
       "A sleek modern planter that showcases your favorite plants while adding a contemporary touch.",
   },
@@ -149,6 +165,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
+    category: "sweets",
     description:
       "A beautiful handwoven basket that provides a stylish storage solution for any room.",
   },
@@ -158,6 +175,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 800,
+    category: "sweets",
     description:
       "A plush area rug that brings warmth and style to your living space.",
   },
@@ -167,6 +185,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 350,
+    category: "sweets",
     description:
       "A handcrafted leather journal perfect for jotting down your thoughts and ideas.",
   },
@@ -176,6 +195,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 200,
+    category: "sweets",
     description:
       "A set of colorful throw pillows that enhance the comfort and style of your seating area.",
   },
@@ -185,6 +205,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 400,
+    category: "sweets",
     description:
       "A durable handcrafted cutting board that makes meal prep a breeze.",
   },
@@ -194,6 +215,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 600,
+    category: "sweets",
     description:
       "A set of elegant wine glasses perfect for special occasions and everyday use.",
   },
@@ -203,6 +225,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 250,
+    category: "sweets",
     description:
       "Soft and warm slippers that keep your feet cozy during chilly evenings.",
   },
@@ -212,6 +235,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 500,
+    category: "sweets",
     description:
       "A beautifully crafted jewelry box that keeps your precious items organized and safe.",
   },
@@ -221,6 +245,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 700,
+    category: "candles",
     description:
       "An artisan tea set that makes brewing and serving tea a delightful experience.",
   },
@@ -230,6 +255,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 300,
+    category: "sweets",
     description:
       "Fashionable sunglasses that offer UV protection while enhancing your style.",
   },
@@ -239,6 +265,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 200,
+    category: "sweets",
     description:
       "A set of unique wall hooks that combine functionality with artistic flair.",
   },
@@ -248,6 +275,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 450,
+    category: "sweets",
     description:
       "Beautifully handcrafted pottery pieces that add character to your decor.",
   },
@@ -257,6 +285,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 800,
+    category: "candles",
     description:
       "A decorative wall mirror that not only serves a purpose but also enhances your space.",
   },
@@ -266,6 +295,7 @@ const dummyProducts = [
     image:
       "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
     price: 600,
+    category: "sweets",
     description:
       "A stylish and functional backpack designed for comfort and convenience.",
   },

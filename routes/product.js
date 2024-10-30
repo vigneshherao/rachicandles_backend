@@ -20,6 +20,23 @@ router.get("/products", async (req, res) => {
   }
 });
 
+router.get("/products/:category", async (req, res) => {
+  try {
+    const { category } = req.params;
+    const data = await Product.find({ category: category });
+    if (!data) {
+      throw new Error("Products are not available!");
+    }
+
+    res.json({
+      message: "Products fetched sucessfully",
+      data,
+    });
+  } catch (error) {
+    res.status(400).send("Error in Product Routes" + error.message);
+  }
+});
+
 router.get("/product/:productId", async (req, res) => {
   try {
     const productId = req.params.productId;
