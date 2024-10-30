@@ -20,6 +20,25 @@ router.get("/products", async (req, res) => {
   }
 });
 
+router.get("/product/:productId", async (req, res) => {
+  try {
+    const productId = req.params.productId;
+
+    const data = await Product.findById(productId);
+
+    if (!data) {
+      throw new Error("Product is not exist!");
+    }
+
+    res.json({
+      message: "Product fetched sucessfully",
+      data,
+    });
+  } catch (error) {
+    res.status(400).send("Error in Product Routes " + error.message);
+  }
+});
+
 router.post("/add/product", adminAuth, async (req, res) => {
   try {
     const { title, subtitle, price, image, description } = req.body;
