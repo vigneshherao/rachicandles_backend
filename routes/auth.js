@@ -22,6 +22,9 @@ router.post("/login", async (req, res) => {
 
     res.cookie("token", token, {
       expires: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000),
+      httpOnly: true,
+      secure: process.env.NODE_ENV === "production",
+      sameSite: "strict",
     });
 
     res.status(200).json({ message: "Admin logged in successfully" });
