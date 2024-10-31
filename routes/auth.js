@@ -25,7 +25,7 @@ router.post("/login", async (req, res) => {
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
       sameSite: "None",
-      domain: "rachifrontend.netlify.app",
+      path: "/",
     });
 
     res.status(200).json({ message: "Admin logged in successfully" });
