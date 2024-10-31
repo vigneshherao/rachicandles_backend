@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 const adminModel = require("../models/admin");
+require("dotenv").config();
 
 const adminAuth = async (req, res, next) => {
   try {
@@ -9,7 +10,7 @@ const adminAuth = async (req, res, next) => {
       return res.status(401).send("Authentication token is missing");
     }
 
-    const decodedObj = await jwt.verify(token, "RachiCandles@2024");
+    const decodedObj = await jwt.verify(token, process.env.secret);
 
     const admin = await adminModel.findById({ _id: decodedObj._id });
 

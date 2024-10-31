@@ -6,30 +6,39 @@ const cookieParser = require("cookie-parser");
 const admin = require("./routes/auth");
 const product = require("./routes/product");
 const cors = require("cors");
+const { storage } = require("./utils/cloudConfig");
+const multer = require("multer");
+const path = require("path");
+const Product = require("./models/product"); // Adjust as necessary
+const { productValidate } = require("./utils/apiValidation");
+const adminAuth = require("./middleware/adminAuth");
 
-//middleware
+// Middleware
 app.use(
   cors({
     origin: "http://localhost:3000",
     credentials: true,
   })
 );
+
+const upload = multer({ storage });
+
 app.use(express.json());
 app.use(cookieParser());
+app.use(express.urlencoded({ extended: true }));
 
-//routes
+// Routes
 app.use("/admin", admin);
-app.use("/", product);
+app.use("/", upload.single("file"), product);
 
-//Database connection
+// Database connection
 connectDb()
   .then(() => {
-    console.log("Connected to databse");
-
+    console.log("Connected to database");
     app.listen(port, () => {
-      console.log(`server started running sucessfully at ${port}`);
+      console.log(`Server started running successfully at ${port}`);
     });
   })
   .catch((err) => {
-    console.log("Error in connection" + err);
+    console.log("Error in connection: " + err);
   });

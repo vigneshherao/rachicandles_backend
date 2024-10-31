@@ -57,34 +57,43 @@ router.get("/product/:productId", async (req, res) => {
 });
 
 router.post("/add/product", adminAuth, async (req, res) => {
-  try {
-    const { title, subtitle, price, image, description, category } = req.body;
+  if (!req.file) {
+    return res.status(400).send("No files were uploaded");
+  }
 
-    productValidate(req);
+  try {
+    const { title, subtitle, price, description, category } = req.body;
+    await productValidate(req);
+
+    const { path: filePath, filename } = req.file;
 
     const product = {
       title,
       subtitle,
       price,
-      image,
+      image: {
+        url: filePath,
+        filename: filename,
+      },
       description,
       category,
     };
 
     const data = await Product(product).save();
 
-    res.json({
-      message: `${data.title} Product added sucessfully `,
+    res.status(201).json({
+      message: `${data.title} product added successfully`,
       data,
     });
   } catch (error) {
-    res.status(500).send("Error in adding proudct " + error.message);
+    res.status(500).send("Error in adding product: " + error.message);
   }
 });
 
 router.patch("/edit/product/:productId", adminAuth, async (req, res) => {
   try {
     const { productId } = req.params;
+
     validateEdit(req);
     const isExistProduct = await Product.findById(productId);
 

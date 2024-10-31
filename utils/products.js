@@ -2,8 +2,10 @@ const dummyProducts = [
   {
     title: "Vintage Glass Vase",
     subtitle: "Elegant vase for timeless decor",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 250,
     category: "candles",
     description:
@@ -12,8 +14,10 @@ const dummyProducts = [
   {
     title: "Handmade Wooden Coasters",
     subtitle: "Eco-friendly coasters for your home",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 150,
     category: "sweets",
     description:
@@ -22,8 +26,10 @@ const dummyProducts = [
   {
     title: "Decorative Throw Blanket",
     subtitle: "Cozy and stylish for any room",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 600,
     category: "candles",
     description:
@@ -32,8 +38,10 @@ const dummyProducts = [
   {
     title: "Ceramic Coffee Mug",
     subtitle: "Artisan mug for your morning brew",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 200,
     category: "candles",
     description:
@@ -42,8 +50,10 @@ const dummyProducts = [
   {
     title: "Scented Soy Candles",
     subtitle: "Eco-friendly and aromatic",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 350,
     category: "candles",
     description:
@@ -52,8 +62,10 @@ const dummyProducts = [
   {
     title: "Rustic Wall Clock",
     subtitle: "Timeless design for any room",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 450,
     category: "candles",
     description:
@@ -62,8 +74,10 @@ const dummyProducts = [
   {
     title: "Stylish Desk Organizer",
     subtitle: "Keep your workspace tidy",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 300,
     category: "candles",
     description:
@@ -72,8 +86,10 @@ const dummyProducts = [
   {
     title: "Handcrafted Wooden Frame",
     subtitle: "Showcase your memories",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 400,
     category: "candles",
     description:
@@ -82,8 +98,10 @@ const dummyProducts = [
   {
     title: "Artisan Soap Set",
     subtitle: "Luxurious and natural",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 250,
     category: "candles",
     description:
@@ -92,8 +110,10 @@ const dummyProducts = [
   {
     title: "Charming Table Lamp",
     subtitle: "Illuminate your space with style",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 500,
     category: "candles",
     description:
@@ -102,8 +122,10 @@ const dummyProducts = [
   {
     title: "Soft Cotton Pillow",
     subtitle: "Comfort for a restful sleep",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 300,
     category: "candles",
     description:
@@ -112,8 +134,10 @@ const dummyProducts = [
   {
     title: "Vintage Record Player",
     subtitle: "Bring back the classics",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 1200,
     category: "candles",
     description:
@@ -122,8 +146,10 @@ const dummyProducts = [
   {
     title: "Decorative Wall Art",
     subtitle: "Add character to your walls",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 700,
     category: "candles",
     description:
@@ -132,8 +158,10 @@ const dummyProducts = [
   {
     title: "Elegant Glass Pitcher",
     subtitle: "Serve in style",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 400,
     category: "candles",
     description:
@@ -142,8 +170,10 @@ const dummyProducts = [
   {
     title: "Rustic Candle Holder",
     subtitle: "Create a warm ambiance",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 350,
     category: "sweets",
     description:
@@ -152,8 +182,10 @@ const dummyProducts = [
   {
     title: "Modern Planter",
     subtitle: "Showcase your plants beautifully",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 450,
     category: "sweets",
     description:
@@ -162,8 +194,10 @@ const dummyProducts = [
   {
     title: "Handwoven Basket",
     subtitle: "Versatile storage solution",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 250,
     category: "sweets",
     description:
@@ -172,8 +206,10 @@ const dummyProducts = [
   {
     title: "Soft Area Rug",
     subtitle: "Add comfort underfoot",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 800,
     category: "sweets",
     description:
@@ -182,8 +218,10 @@ const dummyProducts = [
   {
     title: "Leather Journal",
     subtitle: "Capture your thoughts in style",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 350,
     category: "sweets",
     description:
@@ -192,8 +230,10 @@ const dummyProducts = [
   {
     title: "Decorative Throw Pillows",
     subtitle: "Add a pop of color",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 200,
     category: "sweets",
     description:
@@ -202,8 +242,10 @@ const dummyProducts = [
   {
     title: "Handcrafted Cutting Board",
     subtitle: "Perfect for your kitchen",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 400,
     category: "sweets",
     description:
@@ -212,8 +254,10 @@ const dummyProducts = [
   {
     title: "Elegant Wine Glasses",
     subtitle: "Raise a toast in style",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 600,
     category: "sweets",
     description:
@@ -222,8 +266,10 @@ const dummyProducts = [
   {
     title: "Cozy Slippers",
     subtitle: "Comfort for your feet",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 250,
     category: "sweets",
     description:
@@ -232,8 +278,10 @@ const dummyProducts = [
   {
     title: "Handmade Jewelry Box",
     subtitle: "Store your treasures beautifully",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 500,
     category: "sweets",
     description:
@@ -242,8 +290,10 @@ const dummyProducts = [
   {
     title: "Artisan Tea Set",
     subtitle: "Brew and serve with elegance",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 700,
     category: "candles",
     description:
@@ -252,8 +302,10 @@ const dummyProducts = [
   {
     title: "Stylish Sunglasses",
     subtitle: "Protect your eyes with flair",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 300,
     category: "sweets",
     description:
@@ -262,8 +314,10 @@ const dummyProducts = [
   {
     title: "Unique Wall Hooks",
     subtitle: "Functional art for your home",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 200,
     category: "sweets",
     description:
@@ -272,8 +326,10 @@ const dummyProducts = [
   {
     title: "Handcrafted Pottery",
     subtitle: "Add a touch of craftsmanship",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 450,
     category: "sweets",
     description:
@@ -282,8 +338,10 @@ const dummyProducts = [
   {
     title: "Decorative Wall Mirror",
     subtitle: "Reflect your style",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 800,
     category: "candles",
     description:
@@ -292,8 +350,10 @@ const dummyProducts = [
   {
     title: "Stylish Backpack",
     subtitle: "Perfect for everyday adventures",
-    image:
-      "https://sosacandlesstore.com/cdn/shop/files/81iVAe6v_vL._SL1500.jpg?v=1724952231&width=360",
+    image: {
+      url: "https://res.cloudinary.com/dltcbb5f2/image/upload/v1730378535/rachicandles/cofez0dthaoeo9jukscg.jpg",
+      filename: "rachicandles/cofez0dthaoeo9jukscg",
+    },
     price: 600,
     category: "sweets",
     description:

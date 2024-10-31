@@ -4,6 +4,7 @@ const validator = require("validator");
 const { default: isEmail } = require("validator/lib/isEmail");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
+require("dotenv").config();
 
 const adminSchema = new mongoose.Schema({
   email: {
@@ -24,7 +25,7 @@ const adminSchema = new mongoose.Schema({
 
 adminSchema.methods.getJwt = async function () {
   const user = this;
-  const token = await jwt.sign({ _id: user._id }, "RachiCandles@2024", {
+  const token = await jwt.sign({ _id: user._id }, process.env.secret, {
     expiresIn: "2d",
   });
 

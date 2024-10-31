@@ -1,11 +1,7 @@
 const validator = require("validator");
 
 const productValidate = (req) => {
-  const { title, subtitle, price, image, description } = req.body;
-
-  if (!image || !validator.isURL(image)) {
-    throw new Error("Image should be a valid URL.");
-  }
+  const { title, subtitle, price, description } = req.body;
 
   if (!title || title.trim().length === 0 || title.length < 5) {
     throw new Error(
@@ -29,8 +25,8 @@ const productValidate = (req) => {
     );
   }
 
-  if (typeof price !== "number" || price <= 0) {
-    throw new Error("Price should be a valid positive number.");
+  if (!price) {
+    throw new Error("Price should be a valid .");
   }
 
   const allowedFields = [
@@ -52,7 +48,7 @@ const productValidate = (req) => {
 };
 
 const validateEdit = (req) => {
-  const allowedFields = ["title", "subtitle", "price", "image", "description"];
+  const allowedFields = ["title", "subtitle", "price", "description"];
 
   const isAllowed = Object.keys(req.body).every((key) =>
     allowedFields.includes(key)
