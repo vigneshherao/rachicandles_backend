@@ -24,7 +24,8 @@ router.post("/login", async (req, res) => {
       expires: new Date(Date.now() + 2 * 24 * 60 * 60 * 1000),
       httpOnly: true,
       secure: process.env.NODE_ENV === "production",
-      sameSite: "strict",
+      sameSite: "None",
+      domain: "rachifrontend.netlify.app",
     });
 
     res.status(200).json({ message: "Admin logged in successfully" });
