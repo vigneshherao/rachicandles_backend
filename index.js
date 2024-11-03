@@ -16,7 +16,7 @@ const adminAuth = require("./middleware/adminAuth");
 // Middleware
 app.use(
   cors({
-    origin: "https://rachifrontend.netlify.app",
+    origin: "https://rachicandles.in",
     credentials: true,
   })
 );
