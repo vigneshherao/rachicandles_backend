@@ -11,10 +11,20 @@ const productSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    image: {
-      url: String,
-      filename: String,
-    },
+    image: [
+      {
+        url: String,
+        filename: String,
+      },
+      {
+        url: String,
+        filename: String,
+      },
+      {
+        url: String,
+        filename: String,
+      },
+    ],
     price: {
       type: Number,
       min: 0,

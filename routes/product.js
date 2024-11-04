@@ -57,7 +57,7 @@ router.get("/product/:productId", async (req, res) => {
 });
 
 router.post("/add/product", adminAuth, async (req, res) => {
-  if (!req.file) {
+  if (!req.files || req.files.length === 0) {
     return res.status(400).send("No files were uploaded");
   }
 
@@ -65,16 +65,16 @@ router.post("/add/product", adminAuth, async (req, res) => {
     const { title, subtitle, price, description, category } = req.body;
     await productValidate(req);
 
-    const { path: filePath, filename } = req.file;
+    const images = req.files.map((file) => ({
+      url: file.path,
+      filename: file.filename,
+    }));
 
     const product = {
       title,
       subtitle,
       price,
-      image: {
-        url: filePath,
-        filename: filename,
-      },
+      images,
       description,
       category,
     };

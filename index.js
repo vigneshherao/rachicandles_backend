@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.use("/admin", admin);
-app.use("/", upload.single("file"), product);
+app.use("/", upload.array("files", 3), product);
 
 // Database connection
 connectDb()
