@@ -65,7 +65,7 @@ router.post("/add/product", adminAuth, async (req, res) => {
     const { title, subtitle, price, description, category } = req.body;
     await productValidate(req);
 
-    const images = req.files.map((file) => ({
+    const image = req.files.map((file) => ({
       url: file.path,
       filename: file.filename,
     }));
@@ -74,7 +74,7 @@ router.post("/add/product", adminAuth, async (req, res) => {
       title,
       subtitle,
       price,
-      images,
+      image,
       description,
       category,
     };
